@@ -7,3 +7,15 @@
     margin-top: 30rem;
   }
 }
+
+@media (max-width: 576px) {
+  .top-div {
+    margin-top: 35rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .top-div {
+    margin-top: 40rem;
+  }
+}
