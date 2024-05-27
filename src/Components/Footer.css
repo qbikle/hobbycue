@@ -31,3 +31,21 @@
   width: 16px;
   height: 16px;
 }
+
+.end-strip {
+  background-color: #f7f5f9;
+  color: var(--basewhite);
+  padding: 10px 0;
+}
+
+.custom-btn {
+  background-color: #8064a2; /* Custom purple background for button */
+  border-color: #8064a2; /* Custom purple border for button */
+  color: white; /* White text for button */
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+  background-color: #6e5290; /* Slightly darker shade for hover/focus */
+  border-color: #6e5290; /* Slightly darker shade for hover/focus */
+}

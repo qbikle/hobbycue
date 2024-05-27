@@ -14,12 +14,12 @@ const FeatureCard = ({ icon, title, text, buttonText, iconColor }) => {
             <span className="card-title ms-3 fw-semibold fs-4">{title}</span>
           </div>
           <p className="card-text ms-3">{text}</p>
-          <a
-            href="/"
+          <button
+            onClick={() => (window.location.href = "/add")}
             className="btn btn-outline-primary custom-outline-btn ms-3"
           >
             {buttonText}
-          </a>
+          </button>
         </div>
       </div>
     </div>

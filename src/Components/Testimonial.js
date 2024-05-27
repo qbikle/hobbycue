@@ -29,7 +29,7 @@ const Testimonial = ({
           <div className="audio-player d-flex align-items-center justify-content-between w-100">
             <div className="w-100 d-flex align-items-center justify-content-between">
               <button className="btn btn-primary text-center align-content-center btn-lg me-3 rounded-circle play-button">
-                <i className="bi bi-play-fill"></i>
+                <i className="bi bi-play-fill" style={{ color: "white" }}></i>
               </button>
               <div className="audio-track col-12 custom-width">
                 <input type="range" className="form-range" min="0" max="100" />

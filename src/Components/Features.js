@@ -6,7 +6,7 @@ import FeatureCard from "./FeatureCard";
 
 const Features = () => {
   return (
-    <div className="container top-div">
+    <div className="mx-5 top-div">
       <div className="row row-cols-1 row-cols-md-2 g-4">
         <FeatureCard
           icon="bi-people-fill"

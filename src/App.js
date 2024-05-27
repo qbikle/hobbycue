@@ -7,7 +7,7 @@ import Testimonial from "./Components/Testimonial";
 import PreFooter from "./Components/PreFooter";
 import { Footer } from "./Components/Footer";
 
-function App() {
+function Landing() {
   return (
     <>
       <Navbar />
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Landing;

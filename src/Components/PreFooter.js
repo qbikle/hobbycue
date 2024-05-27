@@ -3,7 +3,7 @@ import "./PreFooter.css"; // Import a CSS file for custom styles if needed
 
 const PreFooter = () => {
   return (
-    <div className="container d-flex flex-column">
+    <div className=" d-flex flex-column">
       <div className="ms-5 mt-5">
         <h2 className="mb-4">
           Your <span className="highlight hobby">Hobby</span>, Your{" "}

@@ -1,9 +1,9 @@
 .top-div {
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 @media (max-width: 768px) {
   .top-div {
-    margin-top: 25rem;
+    margin-top: 30rem;
   }
 }

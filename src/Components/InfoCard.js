@@ -15,7 +15,7 @@ const InfoCard = ({ icon, title, text, buttonText, iconColor }) => {
             <span className="card-title ms-3 fw-bold fs-4">{title}</span>
             <p className="card-text ms-3 mt-4">{text}</p>
             <button
-              href="#"
+              onClick={() => window.location.replace("/add")}
               className="btn btn-outline-primary custom-outline-btn ms-3 mt-1"
             >
               {buttonText}

@@ -139,4 +139,32 @@
   .artwork {
     width: 50%;
   }
+
+  .or-connect::before,
+  .or-connect::after {
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #ddd; /* Light gray for the lines */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.tos {
+  color: #bbb;
+  font-size: 0.83rem;
+}
+
+.tos a {
+  color: #8064a2; /* Custom purple color for links */
+}
+
+.tos a:hover {
+  text-decoration: underline;
+}
+
+.small-text {
+  font-size: 0.83rem;
 }
