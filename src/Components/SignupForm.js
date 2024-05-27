@@ -8,6 +8,12 @@ const SignupForm = () => {
     setPasswordVisible(!passwordVisible);
   };
 
+  const handleSignUp = () => {
+    alert(
+      "Hey its just a demo! No sign up functionality implemented. Maybe coming soon! Till then, try Log in! :)"
+    );
+  };
+
   const calculatePasswordStrength = (password) => {
     if (password.length === 0) return "";
     let strength = 0;
@@ -130,7 +136,10 @@ const SignupForm = () => {
         </span>
       </div>
 
-      <button className="btn btn-primary mt-3 custom-btn">
+      <button
+        className="btn btn-primary mt-3 custom-btn"
+        onClick={handleSignUp}
+      >
         Agree and Continue
       </button>
     </div>
