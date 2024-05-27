@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Home.css"; // Custom CSS for additional styles
+import "./Home.css";
 import LoginForm from "./LoginForm";
 import SignupForm from "./SignupForm";
 

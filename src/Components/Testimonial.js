@@ -1,8 +1,7 @@
-// Testimonial.js
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./Testimonial.css"; // Import custom CSS for additional styling
+import "./Testimonial.css";
 
 const Testimonial = ({
   icon,

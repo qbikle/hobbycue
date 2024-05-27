@@ -1,4 +1,3 @@
-// InfoCard.js
 import React from "react";
 import "./InfoCard.css";
 

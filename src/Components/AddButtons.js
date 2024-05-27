@@ -1,7 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./AddButtons.css"; // Import the CSS file
+import "./AddButtons.css";
 
 const AddButtons = ({ title, description, icon, iconColor }) => {
   return (

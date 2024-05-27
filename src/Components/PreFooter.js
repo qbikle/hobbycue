@@ -1,5 +1,5 @@
 import React from "react";
-import "./PreFooter.css"; // Import a CSS file for custom styles if needed
+import "./PreFooter.css";
 
 const PreFooter = () => {
   return (

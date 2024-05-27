@@ -55,12 +55,12 @@ const Navbar = () => {
 
   const toggleExploreDropdown = () => {
     setIsExploreOpen(!isExploreOpen);
-    setIsProfileOpen(false); // Close profile dropdown if open
+    setIsProfileOpen(false);
   };
 
   const toggleProfileDropdown = () => {
     setIsProfileOpen(!isProfileOpen);
-    setIsExploreOpen(false); // Close explore dropdown if open
+    setIsExploreOpen(false);
   };
 
   return (
