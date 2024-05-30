@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a React front-end project made by replicating the Figma file of Hobby-cue
+This is a front-end project made using React + Bootstrap to replicate the Figma file of Hobbycue.
 
 ## Technologies Used
 
