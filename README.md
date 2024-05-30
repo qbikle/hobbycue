@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a front-end project made using React + Bootstrap to replicate the Figma file of Hobbycue.
 
+Used Bootstrap classes to ensure responsiveness throughout the whole website.
+
 ## Technologies Used
 
 1. React
